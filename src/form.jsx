@@ -53,7 +53,7 @@ const Form = () => {
         <div className="head bg-black">
         <div className="container w-auto bg-white pt-32">
             <h1 className="text-center ">Form Validation</h1>
-            <form  className="flex  flex-col gap-4 items-center">
+            <form className="flex  flex-col gap-4 items-center">
                 <input className="border" type="username" name="username" id="username" placeholder="Enter Your Username"
                 value={username} onChange={(e)=>{setUsername(e.target.value)}} style={{borderColor:ucolor}} />
                 <p className="text-red-500 font-bold text-[10px] mt-[-10px]">{eusername}</p>
