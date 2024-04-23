@@ -65,7 +65,7 @@ const Form = () => {
                 <input className="border" type="password" name="rpswd" id="rpswd" placeholder="repeat your password" value={cpassword} onChange={(e)=>{setcPassword(e.target.value)}} style={{borderColor:cpcolor}}
                 />
                  <p className="text-red-500 font-bold text-[9px] mt-[-10px]">{ecpassword}</p>
-                <button className="border bg-blue-400 w-[150px] rounded text-white hover:bg-green-400" type="submit" onClick={Validate}>Submit</button>
+                <button className="border bg-blue-400 w-[150px] rounded text-white hover:bg-green-400" type="button" onClick={Validate}>Submit</button>
             </form>
         </div>
         </div>
